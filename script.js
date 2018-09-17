@@ -44,7 +44,7 @@ const recievedNews1 = (newsdata) => {
 
 	// For each article object from the API, we create a new div in HTML.
     newsdata.articles.forEach((article) => {
-      
+
 
 					//Here we create and add html elements to our html file
 					document.querySelector(".legoland").innerHTML +=
